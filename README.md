@@ -6,6 +6,9 @@ Starting Zookeeper
 ------------------
 ./zookeeper-server-start.sh ../config/zookeeper.properties
 
+![Starting Zookeeper](images/starting_zookeeper.jpg)
+
+
 
 Starting Broker
 ---------------
@@ -39,4 +42,3 @@ Starting a Consumer
 
 e.g.
 ./kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic "first_topic" --from-beginning
-
