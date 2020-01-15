@@ -14,6 +14,7 @@ Starting Broker
 ---------------
 ./kafka-server-start.sh ../config/server.properties
 
+![Starting Broker](images/starting_broker.jpg)
 
 Creating a Topic
 ----------------
@@ -22,10 +23,14 @@ Creating a Topic
 e.g.
 ./kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic "first_topic"
 
+![Creating a Topic](images/creating_topic.jpg)
+
 
 Topic Description
 -----------------
 ./kafka-topics.sh --describe  --zookeeper localhost:2181 --topic "first_topic"
+
+![Topic Description](images/topic_description.jpg)
 
 
 Starting a Producer
