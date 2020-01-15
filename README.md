@@ -14,7 +14,7 @@ Starting Broker
 ---------------
 ./kafka-server-start.sh ../config/server.properties
 
-![Starting Broker](images/starting_broker.jpg)
+![Starting Broker](./images/starting_broker.jpg)
 
 Creating a Topic
 ----------------
