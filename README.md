@@ -23,7 +23,7 @@ Creating a Topic
 e.g.
 ./kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic "first_topic"
 
-![Creating a Topic](images/creating_topic.jpg)
+![Creating a Topic](images/creating_topic.JPG)
 
 
 Topic Description
