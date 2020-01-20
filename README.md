@@ -6,7 +6,7 @@ Starting Zookeeper
 ------------------
 ./zookeeper-server-start.sh ../config/zookeeper.properties
 
-![Starting Zookeeper](images/starting_zookeeper.jpg)
+![Starting Zookeeper](images/starting_zookeeper.JPG)
 
 
 
@@ -14,7 +14,7 @@ Starting Broker
 ---------------
 ./kafka-server-start.sh ../config/server.properties
 
-![Starting Broker](./images/starting_broker.jpg)
+![Starting Broker](./images/starting_broker.JPG)
 
 Creating a Topic
 ----------------
@@ -30,7 +30,7 @@ Topic Description
 -----------------
 ./kafka-topics.sh --describe  --zookeeper localhost:2181 --topic "first_topic"
 
-![Topic Description](images/topic_description.jpg)
+![Topic Description](images/topic_description.JPG)
 
 
 Starting a Producer
